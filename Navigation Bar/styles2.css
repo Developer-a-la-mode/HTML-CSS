@@ -31,6 +31,17 @@ ul {
 }
 
 section {
+    padding: 2rem 0;  
+}
+
+.section--picture {
     background-color: #ededed;
     text-align: center;
 }
+
+.section--content {
+
+}
+
+
+
