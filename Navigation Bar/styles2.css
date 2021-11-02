@@ -6,8 +6,8 @@
 }
 
 nav {
-    height: 20rem;
-    background-color: green;
+    height: 8rem;
+    background-color: #ededed;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -28,20 +28,53 @@ ul {
 .navlink {
     text-decoration: none;
     color: white;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2rem;
+    padding: .5rem 2rem;
+    background-color: royalblue;
+    border-radius: 2rem;
+    color: black;
+    transition: .3s
+}
+    
+.navlink:hover {
+    color: purple;
 }
 
 section {
     padding: 2rem 0;  
+    display: flex;
+    justify-content: center;
+    background-color: #ededed;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+img {
+    height: 50rem;
 }
 
 .section--picture {
-    background-color: #ededed;
     text-align: center;
 }
 
 .section--content {
-
+    width: 75%;
+    background-color: ededed;
+    text-align: center;
 }
 
+.section--content > h1 {
+    font-size: 2rem;
+    margin:1rem 0rem;
+}
+
+.section--content > h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.section--content > p {
+    text-align: left;
+}
 
 
