@@ -64,3 +64,19 @@ footer {
 .navlinks.navlinks--footer {
     margin-right: 0;
 }
+
+.btn:link,
+.btn:visited {
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    font-size: 2rem;
+    padding: 1rem 3rem;
+    border-radius: 100px;
+    background-color: red;
+}
+
+.imagelink-container {
+    text-align: center;
+}
+
